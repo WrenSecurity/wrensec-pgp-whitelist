@@ -22,7 +22,7 @@
   <groupId>org.wrensecurity</groupId>
   <artifactId>wrensec-pgp-whitelist</artifactId>
   <!-- This project uses jgitver-maven-plugin -->
-  <version>1.5.0</version>
+  <version>1.5.1-SNAPSHOT</version>
 
   <name>Wren Security Trusted PGP Keys</name>
   <description>Contains the whitelist of the PGP keys recognized and trusted by the Wren Security project for build dependencies.</description>
@@ -50,7 +50,7 @@
     <url>https://github.com/WrenSecurity/wrensec-pgp-whitelist</url>
     <connection>scm:git:git://github.com/WrenSecurity/wrensec-pgp-whitelist.git</connection>
     <developerConnection>scm:git:git@github.com:WrenSecurity/wrensec-pgp-whitelist.git</developerConnection>
-    <tag>1.5.0</tag>
+    <tag>00444e147f6fbb0d12e97cafca0966a63adb6afe</tag>
   </scm>
 
   <properties>
