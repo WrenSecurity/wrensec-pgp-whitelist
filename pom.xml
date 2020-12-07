@@ -16,15 +16,13 @@
 
    Copyright 2018 Wren Security.
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.wrensecurity</groupId>
   <artifactId>wrensec-pgp-whitelist</artifactId>
   <!-- This project uses jgitver-maven-plugin -->
-  <version>0</version>
+  <version>1.5.0</version>
 
   <name>Wren Security Trusted PGP Keys</name>
   <description>Contains the whitelist of the PGP keys recognized and trusted by the Wren Security project for build dependencies.</description>
@@ -52,6 +50,7 @@
     <url>https://github.com/WrenSecurity/wrensec-pgp-whitelist</url>
     <connection>scm:git:git://github.com/WrenSecurity/wrensec-pgp-whitelist.git</connection>
     <developerConnection>scm:git:git@github.com:WrenSecurity/wrensec-pgp-whitelist.git</developerConnection>
+    <tag>1.5.0</tag>
   </scm>
 
   <properties>
