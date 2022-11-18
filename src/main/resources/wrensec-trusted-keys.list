@@ -1,255 +1,108 @@
-# Wren Security Official Releases Key (C081F89B)
-# Wren Security Third-party Releases Signed by Wren Key (D7F749B5)
+#
+# The contents of this file are subject to the terms of the Common Development and
+# Distribution License (the License). You may not use this file except in compliance with the
+# License.
+#
+# You can obtain a copy of the License at legal/CDDLv1.1.txt. See the License for the
+# specific language governing permission and limitations under the License.
+# When distributing Covered Software, include this CDDL Header Notice in each file and include
+# the License file at legal/CDDLv1.1.txt. If applicable, add the following below the CDDL
+# Header, with the fields enclosed by brackets [] replaced by your own identifying
+# information: "Portions copyright [year] [name of copyright owner]".
+#
+# Copyright 2022 Wren Security
+# 
 
-# External dependencies inherited from Sun / ForgeRock
-external=0xAA781E12D7F749B5
+# Third Party Re-Signed Artifacts
 
-# Xerces-J dependencies inherited from Sun / ForgeRock
-xerces=0xAA781E12D7F749B5
+aopalliance                     = 0xDB7BEA6FDB11E099783DFFA8AA781E12D7F749B5, noSig
+com.google.collections:google-collections:1.0 = 0xDB7BEA6FDB11E099783DFFA8AA781E12D7F749B5, noSig
+commons-collections:*:3.1       = 0xDB7BEA6FDB11E099783DFFA8AA781E12D7F749B5, noSig
+commons-beanutils:*:1.7.0       = 0xDB7BEA6FDB11E099783DFFA8AA781E12D7F749B5, noSig
+javax.inject                    = 0xDB7BEA6FDB11E099783DFFA8AA781E12D7F749B5, noSig
+oro                             = 0xDB7BEA6FDB11E099783DFFA8AA781E12D7F749B5, noSig
 
-# Archived ForgeRock artifacts
-org.forgerock.*=0xAA781E12D7F749B5, 0x0E17DF45C081F89B
 
-# Approved external dependencies
-args4j:args4j=0x2D6641C6AF88103E, 0x9B7D32F2D50582E6
-cglib:cglib-nodep=0x52E6585E0102B84D
-ch.qos.logback=0x2C7B12F2A511E325
-com.amazonaws=0x03BD3C33F16AB41B
-com.barchart.udt:barchart-udt-bundle=0x80B2E0AA2E117339
-com.beust:jcommander=0x73836387848241D7, 0xCC54B93C018511A4, 0x930C5B1EA41B1AA1, 0x5AD66315FC018797, 0x22E44AC0622B91C3
-com.fasterxml.*=0x9CD8549ACF9BD0CE, 0x1947DCDB647536A9, 0xC9FBAA83A8753994, 0x8D7F1BEC1E2ECAE7
-com.github.cverges:expect4j=0xD52A834DFFAA1068
-com.github.javaparser:javaparser-core=0x379CE192D401AB61
-com.github.jknack:handlebars=0xBAF74303FDDE931D
-com.github.stephenc.jcip:jcip-annotations=0xC7CA19B7B620D787
-com.google.api-client:google-api-client=0xD01DBF93D06A19ED
-com.google.apis=0xE16AB52D79FD224F
-com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru=0x1597EC3CFCCB93E9
-com.google.code.findbugs:jsr305=0x353A436E043E3145, 0x59A252FB1199D873
-com.google.errorprone:error_prone_annotations=0xBF935C771A8474F8, 0x9A259C7EE636C5ED
-com.googlecode.java-diff-utils:diffutils=0x476634A4694E716A
-com.googlecode.java-ipv6:java-ipv6=0x191985E7F42E23DB
-com.googlecode.json-simple=0x717134BDA955E8F3
-com.google.guava:failureaccess=0x7457CA33C3CE9E15
-com.google.guava:guava=0x00ECB0B904931A76, 0x806E7D417A281864, 0xABE9F3126BB741C1
-com.google.guava:guava-jdk5:13.0=0x021E5B388199BCE2
-com.google.guava:listenablefuture=0xF6D4A1D411E9D1AE
-com.google.http-client=0xD01DBF93D06A19ED
-com.google.inject.extensions=0x52E6585E0102B84D
-com.google.inject=0x52E6585E0102B84D, 0xABE9F3126BB741C1
-com.google.inject:guice=0xF0DF21D1D0A3C384
-com.google.j2objc:j2objc-annotations=0x29579F18FA8FD93B
-com.google.oauth-client=0xD01DBF93D06A19ED
-com.google.protobuf:protobuf-java:3.0.0-alpha-3.1=0x5D67BFFCBA1F9A39
-com.google.protobuf:protobuf-java=0xA7764F502A938C99, 0x4B1E11D5A4B91E89
-com.h2database:h2=0x0A4B343F2A55FDAE
-com.jayway.jsonpath:json-path=0x3684155E9365C30E
-com.jayway.restassured=0x368557390486F2C5
-com.jcraft:jsch=0xA50569C7CA7FA1F0
-com.lmax:disruptor=0xBFFA420097F49C8A
-com.maxmind.db=0x4B70CD29736FC6E7
-com.maxmind.geoip2=0x4B70CD29736FC6E7
-com.sleepycat=0xE6A04C98C11CA6FD765BE838156E8DA37ABC7C91
-commons-beanutils:commons-beanutils=0x1861C322C56014B2, 0x411063A3A0FFD119
-commons-cli:commons-cli=0x1241BC872C5E4EC0
-commons-cli:commons-cli=0x9DAADC1C9FCC82D0
-commons-codec:commons-codec=0x86FDC7E2A11262CB
-commons-codec:commons-codec=0xE30534E1EDAB2304
-commons-collections:commons-collections=0x1861C322C56014B2, 0xA41F13C999945293
-commons-configuration:commons-configuration=0x7C4504A4D75CF3DC
-commons-fileupload:commons-fileupload=0xCAF5EC5919FEA27D, 0x10C01C5A2F6059E7, 0x9DAADC1C9FCC82D0, 0x3FAAD2CD5ECBB314
-commons-io:commons-io:1.4=0x1861C322C56014B2
-commons-io:commons-io=0x86FDC7E2A11262CB, 0x9C4F7E9D98B1CC53, 0x9DAADC1C9FCC82D0
-commons-lang:commons-lang=0x1241BC872C5E4EC0, 0x1861C322C56014B2
-commons-logging:commons-logging=0x33CD6733AF5EC452, 0xA41F13C999945293
-commons-net:commons-net=0x7A8860944FAD5F62
-com.orientechnologies=0x9ECDDE58ECBC819F
-com.puppycrawl.tools:checkstyle=0xFB0A30BB62A271FE
-com.sun.activation=0xD908A43FB7EC07AC
-com.sun.jersey:jersey-bundle:1.1.1-ea=0x2D6641C6AF88103E
-com.sun.jersey=0x6425559C47CC79C4
-com.sun.mail:javax.mail=0x6425559C47CC79C4
-com.sun.xml.bind=0xCE8B1D1D2530EDC5, 0x3575E1C767076CA8
-com.sun.xml.fastinfoset:FastInfoset=0x021E3BE573F727ED
-com.sun.xml.messaging.saaj:saaj-impl=0x737B6CAEA1418F41
-com.thoughtworks.qdox:qdox=0xAE5A7FB608A0221C, 0x1B2718089CE964B8
-com.xebialabs.restito:restito=0xB15600AB6BFD0EF7, 0xDB4E8C0626B06686, 0x737A1E72E46178CE
-com.zaxxer:HikariCP=0x4CC08E7F47C3EC76
-de.matrixweb.osgi.wrapped:osgi-wrapped-rhino:1.7R4=0x62E19BAB2431A477
-de.odysseus.juel=0x552ABE33DCD478ED
-info.picocli:picocli=0x379CE192D401AB61
-io.dropwizard.metrics:metrics-core=0x7863C5234D13335B
-io.netty:netty-all=0x96FB9DB219F3338D, 0x056ACA74D46000BF
-io.reactivex:rxjava=0x94B291AEF984A085
-io.reactivex.rxjava2:rxjava=0x94B291AEF984A085
-io.rest-assured=0x368557390486F2C5
-io.swagger=0xF9133FD0175F39D4, 0xA49C3E34F6FF8B9D, 0x69F66542F6D54506, 0x704514F6556102E5
-jakarta.activation=0xD908A43FB7EC07AC
-jakarta.xml.bind=0x083891AD4774845A
-javax.activation=0x6425559C47CC79C4
-javax.annotation:javax.annotation-api=0x6425559C47CC79C4
-javax.enterprise:cdi-api=0x5BCEE695141E6086
-javax.jms:javax.jms-api=0x6425559C47CC79C4
-javax.jws:javax.jws-api=0x0315BFB7970A144F
-javax.mail:mail=0x6425559C47CC79C4
-javax.servlet=0x6425559C47CC79C4
-javax.xml.bind:jaxb-*=0xE7EF389D6C8FB347, 0x0315BFB7970A144F, 0x3575E1C767076CA8
-javax.xml.ws:jaxws-api=0x0315BFB7970A144F
-javax.xml.soap:javax.xml.soap-api=0x0A71E49A4906BF73
-jline:jline=0xECDFEA3CB4493B94
-joda-time:joda-time=0x72385FF0AF338D52
-junit:junit=0x88AA1FEE831A7E89, 0xC7CB325467893CC4, 0xEFE8086F9E93774E
-log4j:log4j=0x86E02C5A42196CA8
-net.bytebuddy=0xBB2914C1FA0811C3, 0x1DA784CCB5C46DD5
-net.java.dev.jna=0x4DB7BC57DFDBCEA4
-net.lingala.zip4j:zip4j=0xF792C1B85BA42ED1
-net.minidev=0x4ED284CD8E322ED0
-net.sf.ehcache:ehcache-core=0xB83A12A027FC6962
-net.sf.jopt-simple:jopt-simple=0x0DA8A5EC02D11EAD
-net.sf.supercsv:super-csv=0x3B330BF1985B0BF6, 0xD4C427FBA7F6814A
-net.sourceforge.nekohtml:nekohtml=0x098A31F381819057
-org.activiti=0x6B8272F2C0C3AC37, 0x199D99B1DAD3B670
-org.antlr=0x82B5574242C20D6F
-org.apache.activemq:activemq-client=0x87A7F75A6A8BA5FC
-org.apache.ant=0xA2115AE15F6B8B72
-org.apache.aries.blueprint:org.apache.aries.blueprint=0x858FC4C4F43856A3
-org.apache.aries:org.apache.aries.util=0xDDFD4F61F24F0D9F
-org.apache.aries.proxy:org.apache.aries.proxy=0x858FC4C4F43856A3
-org.apache.click=0xB8176A25B51329CB
-org.apache.commons:commons-compress=0xA2115AE15F6B8B72
-org.apache.commons:commons-email=0x2C82DBE6C780E2AF, 0xA2115AE15F6B8B72
-org.apache.commons:commons-lang3=0x1241BC872C5E4EC0, 0x9DAADC1C9FCC82D0, 0x86FDC7E2A11262CB, 0x3FAAD2CD5ECBB314
-org.apache.commons:commons-math3=0x9AE296FD02E9F65B
-org.apache.cxf.*=0x858FC4C4F43856A3
-org.apache-extras.beanshell:bsh:2.0b6=0x411063A3A0FFD119
-org.apache.felix=0x5E27F86EF79B7715, 0x3FCF529FF2F27A06, 0xECDFEA3CB4493B94, 0xDDFD4F61F24F0D9F, 0x9054823A859A7237, 0x6C39AAA0104B457B, 0x97D0EDDB4DC0D0A1, 0xBFF2EE42C8282E76
-org.apache.felix:org.apache.felix.gogo.*:1.1.4=0x8d37f2f060a1af50
-org.apache.geronimo.bundles:json=0xE126833F9CF64915
-org.apache.geronimo.ext.tomcat:juli=0xF97EDF900C94DEEE
-org.apache.geronimo.specs=0xECDFEA3CB4493B94, 0xE126833F9CF64915
-org.apache.httpcomponents=0x7C25280EAE63EBE5
-org.apache.ivy:ivy=0x5BE0BA8CB80602AE, 0xDDBCC1270A29D081
-org.apache.maven.doxia=0xC92C5FEC70161C62, 0x33CD6733AF5EC452, 0xC7CA19B7B620D787
-org.apache.maven:maven-aether-provider=0x2E2010F8A7FF4A41, 0x873A8E86B4372146, 0xC7BF26D0BB617866
-org.apache.maven:maven-archiver=0x466CAED6E0747D50
-org.apache.maven:maven-artifact=0x39BE51A1084C9113, 0x2E2010F8A7FF4A41, 0x873A8E86B4372146, 0xC7BF26D0BB617866, 0x1A2A1C94BDE89688
-org.apache.maven:maven-artifact-manager=0x39BE51A1084C9113, 0x30E6F80434A72A7F
-org.apache.maven:maven-builder-support=0x1A2A1C94BDE89688
-org.apache.maven:maven-core=0x2E2010F8A7FF4A41, 0x873A8E86B4372146, 0xC7BF26D0BB617866, 0x1A2A1C94BDE89688
-org.apache.maven:maven-model=0x39BE51A1084C9113, 0x2E2010F8A7FF4A41, 0x873A8E86B4372146, 0xC7BF26D0BB617866, 0x1A2A1C94BDE89688
-org.apache.maven:maven-model-builder=0x2E2010F8A7FF4A41, 0x873A8E86B4372146, 0xC7BF26D0BB617866, 0x1A2A1C94BDE89688
-org.apache.maven:maven-monitor=0x30E6F80434A72A7F
-org.apache.maven:maven-plugin-api=0x39BE51A1084C9113, 0x2E2010F8A7FF4A41, 0x873A8E86B4372146, 0xC7BF26D0BB617866, 0x1A2A1C94BDE89688
-org.apache.maven:maven-plugin-registry=0x9B1FDA9F3C062231
-org.apache.maven:maven-profile=0x39BE51A1084C9113, 0x9B1FDA9F3C062231
-org.apache.maven:maven-repository-metadata=0x39BE51A1084C9113, 0x2E2010F8A7FF4A41, 0x873A8E86B4372146, 0xC7BF26D0BB617866, 0x1A2A1C94BDE89688
-org.apache.maven:maven-resolver-provider=0x1A2A1C94BDE89688
-org.apache.maven:maven-settings=0x2E2010F8A7FF4A41, 0x873A8E86B4372146, 0xC7BF26D0BB617866, 0x1A2A1C94BDE89688
-org.apache.maven:maven-settings-builder=0x2E2010F8A7FF4A41, 0x873A8E86B4372146, 0xC7BF26D0BB617866, 0x1A2A1C94BDE89688
-org.apache.maven.plugins:maven-remote-resources-plugin=0xC7BF26D0BB617866
-org.apache.maven.plugin-tools:maven-plugin-annotations=0x466CAED6E0747D50
-org.apache.maven.reporting:maven-reporting-api=0xC92C5FEC70161C62
-org.apache.maven.reporting:maven-reporting-exec=0xC92C5FEC70161C62
-org.apache.maven.reporting:maven-reporting-impl=0x33CD6733AF5EC452
-org.apache.maven.resolver:maven-resolver-*=0x1A2A1C94BDE89688
-org.apache.maven.scm=0x9C4F7E9D98B1CC53
-org.apache.maven.shared:maven-artifact-resolver=0x30E6F80434A72A7F
-org.apache.maven.shared:maven-common-artifact-filters=0x9C4F7E9D98B1CC53
-org.apache.maven.shared:maven-doxia-tools=0x33CD6733AF5EC452
-org.apache.maven.shared:maven-filtering=0x6525FD70CC303655
-org.apache.maven.shared:maven-plugin-testing-harness=0x9B1FDA9F3C062231
-org.apache.maven.shared:maven-shared-utils=0x466CAED6E0747D50, 0x13D979595E6D01E1
-org.apache.maven.shared:maven-verifier=0xF704B943ED330E1B
-org.apache.maven.wagon:wagon-provider-api:1.0-alpha-5=0x39BE51A1084C9113
-org.apache.maven.wagon:wagon-provider-api=0x9C4F7E9D98B1CC53
-org.apache.maven.wagon:wagon-provider-api:pom:1.0-alpha-5=0x39BE51A1084C9113
-org.apache.mina:mina-core=0x31474E5E7C6B7034, 0x8CF9B3793F3E8060
-org.apache.neethi:neethi=0x858FC4C4F43856A3
-org.apache.olingo=0xFAF8A1C815AB5637
-org.apache.santuario:xmlsec=0x67BF80B10AD53983
-org.apache.servicemix.bundles=0xBFF2EE42C8282E76
-org.apache.servicemix.specs=0xBFF2EE42C8282E76
-org.apache.servicemix.transaction:org.apache.servicemix.transaction=0xA54859B6E61842A2
-org.apache.tomcat=0x208B0AB1D63011C7
-org.apache.velocity:velocity=0xD0EB627D4885CED1
-org.apache.ws.security:wss4j=0x67BF80B10AD53983
-org.apache.ws.xmlschema:xmlschema-core=0x858FC4C4F43856A3
-org.apache.xbean=0xF4B0A67161078634, 0xECDFEA3CB4493B94, 0x73129F58DE61ECBD
-org.asciidoctor:asciidoctorj=0xC1D3063467F1EBD1
-org.assertj:assertj-core=0xCF84722DFC242EB9, 0xE2B3D84202B812D9, 0xCEE8B79520334B30, 0x4B2277C6358670EE, 0x0CC0B712FEE75827
-org.ccil.cowan.tagsoup:tagsoup=0xA730529CA355A63E
-org.checkerframework:checker-qual=0xB16698A4ADF4D638
-org.checkerframework:checker-compat-qual=0xB16698A4ADF4D638
-org.codehaus.groovy=0xAA781E12D7F749B5, 0x41321490758AAD6F, 0x6A65176A0FB1CD0B
-org.codehaus.jackson=0x2D1F2506C6ECEDF4
-org.codehaus.mojo:animal-sniffer-annotations=0x9B7D32F2D50582E6, 0x6525FD70CC303655, 0x873A8E86B4372146
-org.codehaus.plexus:plexus-archiver:2.4.4=0x466CAED6E0747D50, 0x2E2010F8A7FF4A41
-org.codehaus.plexus:plexus-component-annotations=0x012579464D01C06A
-org.codehaus.plexus:plexus-cipher=0x1A2A1C94BDE89688
-org.codehaus.plexus:plexus-classworlds=0xAE5A7FB608A0221C
-org.codehaus.plexus:plexus-interpolation=0x873A8E86B4372146
-org.codehaus.plexus:plexus-resources:1.0-alpha-7=0x873A8E86B4372146
-org.codehaus.plexus:plexus-sec-dispatcher=0x1FD507154FB9BA39
-org.codehaus.plexus:plexus-utils=0xC7BF26D0BB617866, 0x012579464D01C06A, 0x1A2A1C94BDE89688
-org.codehaus.plexus=0x2E2010F8A7FF4A41
-org.codehaus.woodstox=0x9CD8549ACF9BD0CE, 0xC9FBAA83A8753994
-org.dbunit:dbunit=0xD4F8EA28DFAC3DAF
-org.easymock:easymock=0x7C7D8456294423BA
-org.easytesting=0x1768F3F2B1F96385, 0xCF84722DFC242EB9
-org.easytesting:fest-assert-core:2.0M10=0xCF84722DFC242EB9
-org.eclipse.aether=0x2E2010F8A7FF4A41
-org.eclipse.jetty=0xE7AE839CD7C58886, 0x2D0E1FB8FE4B68B4
-org.eclipse.jetty.orbit=0xE7AE839CD7C58886
-org.eclipse.jetty.websocket=0xE7AE839CD7C58886
-org.eclipse.sisu=0x01D734EE5EE9C3F8
-org.freemarker:freemarker=0x1939A2520BAB1D90
-org.fusesource.hawtbuf:hawtbuf=0x9FF25980F5BA7E4F
-org.glassfish.corba:glassfish-corba-omgapi=0x0315BFB7970A144F, 0x1A02D06862AFBE30
-org.glassfish.grizzly=0x8EDD552C68DC59B7, 0x9709D5A993B48D77, 0x728FFDDDB25B0AF3
-org.glassfish:javax.security.auth.message=0x2D6641C6AF88103E
-org.glassfish:javax.transaction=0x2D6641C6AF88103E
-org.hamcrest=0xA6ADFC93EF34893E, 0xBEDE11EAF1164480
-org.hdrhistogram:HdrHistogram=0xE7BF252CF360097E
-org.hsqldb:hsqldb=0x313CBA932516C4D3
-org.javassist:javassist=0x69DA36AE31C5C4B3, 0x10066A9707090CF9
-org.jgrapht:jgrapht-core=0x2036CB247AC28520
-org.jruby:jruby-complete=0x62EBFC78FE4156D1
-org.jsslutils:jsslutils=0x07603F08E39C0477
-org.junit.*=0x85911F425EC61B51
-org.jvnet.mimepull:mimepull=0x6425559C47CC79C4
-org.kohsuke:groovy-sandbox=0x9B7D32F2D50582E6
-org.littleshoot=0x7170BFD823B26C95
-org.littleshoot:littleproxy:1.0.0-beta8=0x21B14D654856984E
-org.littleshoot:littleproxy=0x29CD2809561A3416
-org.mockito=0xA1B4460D8BA7B9AF, 0x689CBE64F4BC997F
-org.mozilla:rhino=0x3F36885C24DF4B75, 0xA45D697A6F2ADB3C, 0xECF2FAEAF38AEB5D, 0x2F45F85CDF082E68
-org.mozilla:rhino-engine=0x2F45F85CDF082E68
-org.mpierce.metrics.reservoir:hdrhistogram-metrics-reservoir=0xDC9A492F04AF37FA
-org.mybatis:mybatis=0x210E17F90261E620
-org.objenesis:objenesis=0x7C7D8456294423BA
-org.openjdk.jmh:jmh-core=0x0D3B328562A119A7, 0xCB43338E060CF9FA
-org.opentest4j:opentest4j=0x85911F425EC61B51
-org.ops4j.base:ops4j-base-lang=0x492985B45E8D6711, 0xECDFEA3CB4493B94, 0xBFF2EE42C8282E76
-org.ops4j.pax.swissbox=0x492985B45E8D6711, 0xECDFEA3CB4493B94, 0x75ED6D831AC2F4BA, 0xBFF2EE42C8282E76
-org.ops4j.pax.web=0x95198B400AB03586, 0x75ED6D831AC2F4BA, 0xADBEC7A623DBB1D6
-org.osgi:org.osgi.enterprise=0xBEAAECD424172959
-org.osgi=0x734AEF3D43509290
-org.ow2.asm=0x5F69AD087600B22C
-org.postgresql:postgresql=0x307A96FBA0292109
-org.powermock=0x368557390486F2C5, 0x9A9E48C5A0DF30F7
-org.reactivestreams:reactive-streams=0x2383163BC40844FD
-org.slf4j=0x2C7B12F2A511E325
-org.sonatype.aether=0x2E2010F8A7FF4A41
-org.sonatype.plexus=0x30E6F80434A72A7F
-org.sonatype.sisu=0x52E6585E0102B84D, 0x2E2010F8A7FF4A41
-org.springframework:spring-beans=0x23EF3D2F93185045
-org.testng:testng=0x73836387848241D7, 0x9440C8D6DECAFA12, 0xCC54B93C018511A4, 0xAC5EC74981F9CDA6
-org.tukaani:xz=0x38EE757D69184620
-org.twdata.maven:mojo-executor=0x99561A757E742D31
-org.xerial.snappy:snappy-java=0x42575E0CCD6BA16A
-org.yaml:snakeyaml=0x99EAEDDECFCF8216, 0x55C7E5E701832382
-wsdl4j:wsdl4j=0xFB633DE8F5CBAE6B
-mysql:mysql-connector-java=0x467B942D3A79BD29
+# Other Officially Signed Artifacts
 
-# Always trust  Wren Security (not optimal, but makes our life easier)
-*=0xAA781E12D7F749B5, 0x0E17DF45C081F89B
+ch.ethz.ganymed:ganymed-ssh2    = noSig
+com.fasterxml.*                 = 0x8A10792983023D5D14C93B488D7F1BEC1E2ECAE7
+com.google.code.findbugs        = 0x7616EB882DAF57A11477AAF559A252FB1199D873
+com.google.errorprone           = 0xE77417AC194160A3FABD04969A259C7EE636C5ED
+com.google.guava                = 0x56ED3B4843DAACC79DE555557457CA33C3CE9E15, \
+                                  0xBDB5FA4FE719D787FB3D3197F6D4A1D411E9D1AE
+com.google.j2objc               = 0xB801E2F8EF035068EC1139CC29579F18FA8FD93B
+com.vladsch.flexmark            = 0x4008F9DFF7DBC968F35F9E712642156411CCE8B3
+commons-beanutils               = 0xB6E73D84EA4FCC47166087253FAAD2CD5ECBB314
+commons-chain                   = noSig
+commons-codec                   = 0x2DB4F1EF0FA761ECC4EA935C86FDC7E2A11262CB, \
+                                  0xBC87A3FD0A54480F0BADBEBD21939FF0CA2A6567
+commons-collections             = 0x0CC641C3A62453AB390066C4A41F13C999945293
+commons-digester:*:1.8          = noSig
+commons-digester                = 0xA9F885A21BA0EFB7D0991E6CCAF5EC5919FEA27D
+commons-io                      = 0x2DB4F1EF0FA761ECC4EA935C86FDC7E2A11262CB, \
+                                  0xCD5464315F0B98C77E6E8ECD9DAADC1C9FCC82D0
+commons-lang                    = 0x636DE9055C4C75C7BD9830771241BC872C5E4EC0, \
+                                  0xD196A5E3E70732EEB2E5007F1861C322C56014B2
+commons-logging                 = 0x0CC641C3A62453AB390066C4A41F13C999945293
+commons-validator               = 0xD6F1BC78607808EC8E9F69437A8860944FAD5F62
+dom4j                           = noSig
+io.github.resilience4j          = 0x94FAC9D5B165E80F1F2D9A103FFA7DB1EC0FF1A2
+io.vavr                         = 0x2E732921F44FD0DB434DB5CC55A58E21609DEC6E
+javax.annotation                = 0x4F7E32D440EF90A83011A8FC6425559C47CC79C4
+javax.enterprise                = 0xF2F5A9AFBD6C3FAE324194DCB00369BF54A1AC32
+javax.servlet                   = 0x4F7E32D440EF90A83011A8FC6425559C47CC79C4
+org.apache.bcel                 = 0x2DB4F1EF0FA761ECC4EA935C86FDC7E2A11262CB
+org.apache.commons              = 0x2DB4F1EF0FA761ECC4EA935C86FDC7E2A11262CB, \
+                                  0xB6E73D84EA4FCC47166087253FAAD2CD5ECBB314, \
+                                  0xCE8075A251547BEE249BC151A2115AE15F6B8B72
+org.apache.httpcomponents       = 0x0785B3EFF60B1B1BEA94E0BB7C25280EAE63EBE5
+org.apache.maven                = 0x29BEA2A645F2D6CED7FB12E02B172E3E156466E8, \
+                                  0x6A814B1F869C2BBEAB7CB7271A2A1C94BDE89688, \
+                                  0x9FFED7A118D45A44E4A1E47130E6F80434A72A7F, \
+                                  0xF254B35617DC255D9344BCFA873A8E86B4372146, \
+                                  0xFB11D4BB7B244678337AAD8BC7BF26D0BB617866
+org.apache.maven.doxia          = 0x6A814B1F869C2BBEAB7CB7271A2A1C94BDE89688
+org.apache.maven.enforcer       = 0x84789D24DF77A32433CE1F079EB80E92EB2135B1
+org.apache.maven.plugins        = 0x29BEA2A645F2D6CED7FB12E02B172E3E156466E8, \
+                                  0x6A814B1F869C2BBEAB7CB7271A2A1C94BDE89688, \
+                                  0x84789D24DF77A32433CE1F079EB80E92EB2135B1, \
+                                  0xAE9E53FC28FF2AB1012273D0BF1518E0160788A2
+org.apache.maven.reporting      = 0x6A814B1F869C2BBEAB7CB7271A2A1C94BDE89688
+org.apache.maven.scm            = 0x6A814B1F869C2BBEAB7CB7271A2A1C94BDE89688
+org.apache.maven.shared         = 0x29BEA2A645F2D6CED7FB12E02B172E3E156466E8, \
+                                  0x6A814B1F869C2BBEAB7CB7271A2A1C94BDE89688, \
+                                  0x82C9EC0E52C47A936A849E0113D979595E6D01E1, \
+                                  0x84789D24DF77A32433CE1F079EB80E92EB2135B1
+org.apache.velocity             = 0x7B9751FC3F01F134F476464CD0EB627D4885CED1
+org.apache.xbean                = 0x223D3A74B068ECA354DC385CE126833F9CF64915
+org.apache-extras.beanshell     = 0xDDDEE87612E9FB95F5C8D91E411063A3A0FFD119
+org.bouncycastle                = 0x08F0AAB4D0C1A4BDDE340765B341DDB020FCB6AB
+org.checkerframework            = 0x19BEAB2D799C020F17C69126B16698A4ADF4D638
+org.codehaus.plexus:plexus-i18n = noSig
+org.codehaus.plexus:plexus-digest = noSig
+org.codehaus.plexus             = 0x190D5A957FF22273E601F7A7C92C5FEC70161C62, \
+                                  0x29BEA2A645F2D6CED7FB12E02B172E3E156466E8, \
+                                  0x32118CF76C9EC5D918E54967CA80D1F0EB6CA4BA, \
+                                  0x47063E8BA7A6450E4A52E7AE466CAED6E0747D50, \
+                                  0x6A814B1F869C2BBEAB7CB7271A2A1C94BDE89688, \
+                                  0xB02137D875D833D9B23392ECAE5A7FB608A0221C, \
+                                  0xBA926F64CA647B6D853A38672E2010F8A7FF4A41, \
+                                  0xF254B35617DC255D9344BCFA873A8E86B4372146, \
+                                  0xFA77DCFEF2EE6EB2DEBEDD2C012579464D01C06A, \
+                                  0xFB11D4BB7B244678337AAD8BC7BF26D0BB617866
+org.eclipse.aether              = 0xBA926F64CA647B6D853A38672E2010F8A7FF4A41, \
+                                  0xFB11D4BB7B244678337AAD8BC7BF26D0BB617866
+org.eclipse.jetty               = 0x5989BAF76217B843D66BE55B2D0E1FB8FE4B68B4
+org.eclipse.sisu                = 0xCF17E92C9FFA55316B5DB83901D734EE5EE9C3F8
+org.iq80.snappy                 = 0x9E93DB1192CEE3D3B581AABB37E9D58EA4598641
+org.jsoup                       = 0xF3184BCD55F4D016E30D4C9BF42E87F9665015C9
+org.netbeans.lib:cvsclient      = noSig
+org.nibor.autolink              = 0x624B96CEB9896889C97B258F7DC3076FE22D4F88
+org.simplify4u.plugins          = 0x57EB3F12030A57BAA31CAAD5BE3E2A5CB80794EE
+org.slf4j                       = 0x475F3B8E59E6E63AA78067482C7B12F2A511E325
+org.sonatype.aether             = 0xBA926F64CA647B6D853A38672E2010F8A7FF4A41
+org.sonatype.plexus             = 0x9FFED7A118D45A44E4A1E47130E6F80434A72A7F
+org.sonatype.sisu               = 0xE78AA45938D10249E08CC1C752E6585E0102B84D
+org.tukaani                     = 0x3690C240CE51B4670D30AD1C38EE757D69184620
+org.wrensecurity.*              = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B

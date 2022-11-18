@@ -1,177 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-   The contents of this file are subject to the terms of the Common Development
-   and Distribution License (the License). You may not use this file except in
-   compliance with the License.
+    The contents of this file are subject to the terms of the Common Development
+    and Distribution License (the License). You may not use this file except in
+    compliance with the License.
 
-   You can obtain a copy of the License at legal/CDDLv1.0.txt. See the License
-   for the specific language governing permission and limitations under the
-   License.
+    You can obtain a copy of the License at legal/CDDLv1.0.txt. See the License
+    for the specific language governing permission and limitations under the
+    License.
 
-   When distributing Covered Software, include this CDDL Header Notice in each
-   file and include the License file at legal/CDDLv1.0.txt. If applicable, add
-   the following below the CDDL Header, with the fields enclosed by brackets []
-   replaced by your own identifying information: "Portions copyright [year]
-   [name of copyright owner]".
+    When distributing Covered Software, include this CDDL Header Notice in each
+    file and include the License file at legal/CDDLv1.0.txt. If applicable, add
+    the following below the CDDL Header, with the fields enclosed by brackets []
+    replaced by your own identifying information: "Portions copyright [year]
+    [name of copyright owner]".
 
-   Copyright 2018-2021 Wren Security.
+    Copyright 2018-2021 Wren Security.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+    <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.wrensecurity</groupId>
-  <artifactId>wrensec-pgp-whitelist</artifactId>
-  <!-- This project uses jgitver-maven-plugin -->
-  <version>0</version>
+    <groupId>org.wrensecurity</groupId>
+    <artifactId>wrensec-pgp-whitelist</artifactId>
+    <version>1.7.0-SNAPSHOT</version>
 
-  <name>Wren Security Trusted PGP Keys</name>
-  <description>Contains the whitelist of the PGP keys recognized and trusted by the Wren Security project for build dependencies.</description>
+    <name>Wren Security Trusted PGP Keys</name>
+    <description>Contains the whitelist of the PGP keys recognized and trusted by the Wren Security project for build dependencies.</description>
 
-  <licenses>
-    <license>
-      <name>CDDL-1.0</name>
-      <url>http://opensource.org/licenses/CDDL-1.0</url>
-      <comments>Common Development and Distribution License (CDDL) 1.0</comments>
-      <distribution>repo</distribution>
-    </license>
-  </licenses>
+    <licenses>
+        <license>
+            <name>CDDL-1.0</name>
+            <url>http://opensource.org/licenses/CDDL-1.0</url>
+            <comments>Common Development and Distribution License (CDDL) 1.0</comments>
+        </license>
+    </licenses>
 
-  <organization>
-    <name>Wren Security</name>
-    <url>http://wrensecurity.org/</url>
-  </organization>
+    <organization>
+        <name>Wren Security</name>
+        <url>http://wrensecurity.org/</url>
+    </organization>
 
-  <issueManagement>
-    <system>GitHub Issues</system>
-    <url>https://github.com/WrenSecurity/wrensec-pgp-whitelist/issues</url>
-  </issueManagement>
+    <issueManagement>
+        <system>GitHub Issues</system>
+        <url>https://github.com/WrenSecurity/wrensec-pgp-whitelist/issues</url>
+    </issueManagement>
 
-  <scm>
-    <url>https://github.com/WrenSecurity/wrensec-pgp-whitelist</url>
-    <connection>scm:git:git://github.com/WrenSecurity/wrensec-pgp-whitelist.git</connection>
-    <developerConnection>scm:git:git@github.com:WrenSecurity/wrensec-pgp-whitelist.git</developerConnection>
-  </scm>
+    <scm>
+        <url>https://github.com/WrenSecurity/wrensec-pgp-whitelist</url>
+        <connection>scm:git:git://github.com/WrenSecurity/wrensec-pgp-whitelist.git</connection>
+        <developerConnection>scm:git:git@github.com:WrenSecurity/wrensec-pgp-whitelist.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
 
-  <properties>
-    <wrenReleaseRepository>https://wrensecurity.jfrog.io/wrensecurity/releases</wrenReleaseRepository>
-    <wrenSnapshotRepository>https://wrensecurity.jfrog.io/wrensecurity/snapshots</wrenSnapshotRepository>
-  </properties>
+    <properties>
+        <wrenReleaseRepository>https://wrensecurity.jfrog.io/wrensecurity/releases</wrenReleaseRepository>
+        <wrenSnapshotRepository>https://wrensecurity.jfrog.io/wrensecurity/snapshots</wrenSnapshotRepository>
+    </properties>
 
-  <repositories>
-    <repository>
-      <id>wrensecurity-releases</id>
-      <name>Wren Security Release Repository</name>
-      <url>${wrenReleaseRepository}</url>
+    <repositories>
+        <repository>
+            <id>wrensecurity-releases</id>
+            <name>Wren Security Release Repository</name>
+            <url>${wrenReleaseRepository}</url>
 
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
+            <snapshots>
+              <enabled>false</enabled>
+            </snapshots>
 
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-    </repository>
+            <releases>
+              <enabled>true</enabled>
+            </releases>
+        </repository>
+    </repositories>
 
-    <repository>
-      <id>wrensecurity-snapshots</id>
-      <name>Wren Security Snapshot Repository</name>
-      <url>${wrenSnapshotRepository}</url>
+    <distributionManagement>
+        <repository>
+            <id>wrensecurity-releases</id>
+            <name>Wren Security Release Repository</name>
+            <url>${wrenReleaseRepository}</url>
+        </repository>
 
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
+        <snapshotRepository>
+            <id>wrensecurity-snapshots</id>
+            <name>Wren Security Snapshot Repository</name>
+            <url>${wrenSnapshotRepository}</url>
+        </snapshotRepository>
+    </distributionManagement>
 
-      <releases>
-        <enabled>false</enabled>
-      </releases>
-    </repository>
-  </repositories>
-
-  <pluginRepositories>
-    <pluginRepository>
-      <id>wrensecurity-releases</id>
-      <name>Wren Security Plugin Release Repository</name>
-      <url>${wrenReleaseRepository}</url>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-    </pluginRepository>
-
-    <pluginRepository>
-      <id>wrensecurity-snapshots</id>
-      <name>Wren Security Plugin Snapshot Repository</name>
-      <url>${wrenSnapshotRepository}</url>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </pluginRepository>
-  </pluginRepositories>
-
-  <distributionManagement>
-    <snapshotRepository>
-      <id>wrensecurity-snapshots</id>
-      <name>Wren Security Snapshot Repository</name>
-      <url>${wrenSnapshotRepository}</url>
-    </snapshotRepository>
-
-    <repository>
-      <id>wrensecurity-releases</id>
-      <name>Wren Security Release Repository</name>
-      <url>${wrenReleaseRepository}</url>
-    </repository>
-  </distributionManagement>
-
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-remote-resources-plugin</artifactId>
-        <version>1.5</version>
-        <executions>
-          <execution>
-            <goals>
-              <goal>bundle</goal>
-            </goals>
-            <configuration>
-              <includes>
-                <include>wrensec-trusted-keys.list</include>
-              </includes>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
-  </build>
-
-  <profiles>
-    <profile>
-      <id>sign</id>
-      <build>
+    <build>
         <plugins>
-          <!-- We want to sign the artifact, the POM, and all attached artifacts -->
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-gpg-plugin</artifactId>
-            <version>1.6</version>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <version>1.6</version>
 
-            <configuration>
-              <passphrase>${gpg.passphrase}</passphrase>
-              <useAgent>true</useAgent>
-            </configuration>
+                <configuration>
+                  <passphrase>${gpg.passphrase}</passphrase>
+                  <useAgent>true</useAgent>
+                </configuration>
 
-            <executions>
-              <execution>
-                <id>sign-artifacts</id>
-                <phase>verify</phase>
+                <executions>
+                    <execution>
+                        <id>sign-artifacts</id>
+                        <phase>verify</phase>
 
-                <goals>
-                  <goal>sign</goal>
-                </goals>
-              </execution>
-            </executions>
-          </plugin>
+                        <goals>
+                           <goal>sign</goal>
+                        </goals>
+                   </execution>
+                </executions>
+            </plugin>
         </plugins>
-      </build>
-    </profile>
-  </profiles>
+    </build>
 </project>

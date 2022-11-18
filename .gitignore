@@ -2,5 +2,10 @@
 .idea
 *.iml
 
+# Eclipse project files
+.classpath
+.settings
+.project
+
 # Build artifacts
 target/
