@@ -49,6 +49,7 @@ com.jcraft:jsch=0xA50569C7CA7FA1F0
 com.lmax:disruptor=0xBFFA420097F49C8A
 com.maxmind.db=0x4B70CD29736FC6E7
 com.maxmind.geoip2=0x4B70CD29736FC6E7
+com.sleepycat=0xE6A04C98C11CA6FD765BE838156E8DA37ABC7C91
 commons-beanutils:commons-beanutils=0x1861C322C56014B2, 0x411063A3A0FFD119
 commons-cli:commons-cli=0x1241BC872C5E4EC0
 commons-cli:commons-cli=0x9DAADC1C9FCC82D0
