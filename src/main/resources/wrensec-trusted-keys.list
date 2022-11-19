@@ -140,6 +140,11 @@ com.amazonaws:aws-java-sdk-sns:1.10.72 = 0x505C6AA8F684D2EFD8B7832E03BD3C33F16AB
 com.amazonaws:aws-java-sdk-sqs:1.10.72 = 0x505C6AA8F684D2EFD8B7832E03BD3C33F16AB41B
 
 
+# wrensec-script
+org.eclipse.wst.jsdt:org.eclipse.wst.jsdt.debug.rhino.debugger = 0xDB7BEA6FDB11E099783DFFA8AA781E12D7F749B5
+org.eclipse.wst.jsdt:org.eclipse.wst.jsdt.debug.transport = 0xDB7BEA6FDB11E099783DFFA8AA781E12D7F749B5
+
+
 #
 # Other Officially Signed Artifacts
 #
