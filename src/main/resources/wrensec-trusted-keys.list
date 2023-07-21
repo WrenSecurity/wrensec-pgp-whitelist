@@ -10,8 +10,8 @@
 # Header, with the fields enclosed by brackets [] replaced by your own identifying
 # information: "Portions copyright [year] [name of copyright owner]".
 #
-# Copyright 2022 Wren Security
-# 
+# Copyright 2022-2023 Wren Security
+#
 
 #
 # Third Party Signed Artifacts
@@ -39,7 +39,7 @@ oro                             = 0xDB7BEA6FDB11E099783DFFA8AA781E12D7F749B5, no
 # Deprecated Artifacts
 #
 # This section contains signatures of artifacts that ideally should not be used
-# and are subject for removal. Don't forget to comment where the artifacts is 
+# and are subject for removal. Don't forget to comment where the artifacts is
 # being used and why we need to have it here.
 #
 
@@ -159,7 +159,8 @@ org.eclipse.wst.jsdt:org.eclipse.wst.jsdt.debug.transport = 0xDB7BEA6FDB11E09978
 
 args4j:args4j:2.33              = 0x150FDE3F7787E7D11EF4E12A9B7D32F2D50582E6
 ch.ethz.ganymed:ganymed-ssh2    = noSig
-ch.qos.logback                  = 0x475F3B8E59E6E63AA78067482C7B12F2A511E325
+ch.qos.logback                  = 0x475F3B8E59E6E63AA78067482C7B12F2A511E325, \
+                                  0x60200AC4AE761F1614D6C46766D68DAA073BE985
 com.beust:jcommander            = 0xC70B844F002F21F6D2B9C87522E44AC0622B91C3, \
                                   0xF60DB6893AB3825459528EADCC54B93C018511A4
 com.fasterxml.*                 = 0x8A10792983023D5D14C93B488D7F1BEC1E2ECAE7
@@ -220,6 +221,7 @@ io.swagger                      = 0x1F6774B9D58C5EA6BF84D534704514F6556102E5, \
 io.vavr                         = 0x2E732921F44FD0DB434DB5CC55A58E21609DEC6E
 jakarta.activation              = 0xCAE38BC93D90B852D88465DD3A1959EEF8726006
 jakarta.annotation              = 0xF6CE460FDBE1AABD1A96456737ECFC571637667C
+jakarta.jms                     = 0xA1483F88BA771993AB609C43590C2310CEE1C9BE
 jakarta.jws                     = 0xCB3B6379F3D113FA3D7CB45F2776BC4F5165A5EB
 jakarta.xml.bind                = 0xB38E195D438D44A1A8D2D2203575E1C767076CA8, \
                                   0xDD46DEC275B1F230ACCE4EEB083891AD4774845A
@@ -248,7 +250,8 @@ net.sf.supercsv:super-csv       = 0x128C180ACCFC7F304A5CB1EAD4C427FBA7F6814A
 net.sourceforge.jexcelapi:jxl   = 0x5BC9AE406B681CCAAD756D1DE84CFAC9881F7B13
 org.activiti                    = 0x6959A69747E27AC4E1E71636199D99B1DAD3B670
 org.apache-extras.beanshell     = 0xDDDEE87612E9FB95F5C8D91E411063A3A0FFD119
-org.apache.activemq:activemq-client = 0xC8FFDCEEEEFACB320FB87B6587A7F75A6A8BA5FC
+org.apache.activemq:activemq-client = 0xC8FFDCEEEEFACB320FB87B6587A7F75A6A8BA5FC, \
+                                  0x1AA8CF92D409A73393D0B736BFF2EE42C8282E76
 org.apache.ant                  = 0x8DA70C00DF7AF1B0D2F9DC74DDBCC1270A29D081, \
                                   0xCE8075A251547BEE249BC151A2115AE15F6B8B72
 org.apache.aries                = 0xEB1BC31D2376161CA9F00C7BDDFD4F61F24F0D9F
