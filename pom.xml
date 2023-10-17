@@ -21,7 +21,7 @@
 
     <groupId>org.wrensecurity</groupId>
     <artifactId>wrensec-pgp-whitelist</artifactId>
-    <version>1.7.11-SNAPSHOT</version>
+    <version>1.7.11</version>
 
     <name>Wren Security Trusted PGP Keys</name>
     <description>Contains the whitelist of the PGP keys recognized and trusted by the Wren Security project for build dependencies.</description>
@@ -48,7 +48,7 @@
         <url>https://github.com/WrenSecurity/wrensec-pgp-whitelist</url>
         <connection>scm:git:git://github.com/WrenSecurity/wrensec-pgp-whitelist.git</connection>
         <developerConnection>scm:git:git@github.com:WrenSecurity/wrensec-pgp-whitelist.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>1.7.11</tag>
     </scm>
 
     <properties>
