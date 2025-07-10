@@ -154,6 +154,18 @@ com.amazonaws:aws-java-sdk-sns:1.10.72 = !0x505C6AA8F684D2EFD8B7832E03BD3C33F16A
 com.amazonaws:aws-java-sdk-sqs:1.10.72 = !0x505C6AA8F684D2EFD8B7832E03BD3C33F16AB41B
 org.eclipse.jetty:*:8.1.15.v20140411 = !0x5DE533CB43DAF8BC3E372283E7AE839CD7C58886
 
+# wrenam - bundles needed for jakarta.servlet migration
+commons-fileupload:commons-fileupload:1.5-jakarta1 = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
+com.iplanet.jato:jato:2005-05-04-jakarta1 = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
+com.sun.jersey:jersey-bundle:1.19.1-jakarta1 = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
+com.sun.xml.rpc:jaxrpc-impl:1.1.6-jakarta1 = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
+com.sun.xml.rpc:jaxrpc-spi:1.1.6-jakarta1 = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
+com.sun.web.ui:cc:2008-08-08-jakarta1 = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
+jakarta.xml.rpc:jakarta.xml.rpc-api:1.1.4-jakarta1 = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
+org.apache.click:click-extras:2.3.0-jakarta1 = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
+org.apache.click:click-nodeps:2.3.0-jakarta1 = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
+org.apache.cxf:cxf-rt-transports-http:2.7.18-jakarta1 = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
+org.restlet.jee:org.restlet.ext.servlet:2.4.3-jakarta1 = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
 
 # wrensec-script
 org.eclipse.wst.jsdt:org.eclipse.wst.jsdt.debug.rhino.debugger = 0xDB7BEA6FDB11E099783DFFA8AA781E12D7F749B5
@@ -266,6 +278,7 @@ io.swagger                      = 0x1F6774B9D58C5EA6BF84D534704514F6556102E5, \
 io.vavr                         = 0x2E732921F44FD0DB434DB5CC55A58E21609DEC6E
 jakarta.activation              = 0xCAE38BC93D90B852D88465DD3A1959EEF8726006
 jakarta.annotation              = 0xF6CE460FDBE1AABD1A96456737ECFC571637667C
+jakarta.el                      = 0x7AA34304FF173025AA394C7C2C026998703FFA67
 jakarta.inject                  = 0x6ACBD5073DF2D83775916804928B20E9AD5298CC
 jakarta.jms                     = 0xA1483F88BA771993AB609C43590C2310CEE1C9BE
 jakarta.jws                     = 0xCB3B6379F3D113FA3D7CB45F2776BC4F5165A5EB
@@ -411,7 +424,8 @@ org.forgerock.opendj            = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
 org.forgerock.openicf.*         = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
 org.fusesource.hawtbuf          = 0xE5B8247AF8A619A28F90FDFC9FF25980F5BA7E4F
 org.glassfish.grizzly           = 0xAA45F1995A6EB61EF8A4F9F3728FFDDDB25B0AF3, \
-                                  0xC8808F92808247B0FD7B095A8EDD552C68DC59B7
+                                  0xC8808F92808247B0FD7B095A8EDD552C68DC59B7, \
+                                  0x5C6C110AC6ED91594D92B795C0DF20AC84F198AE
 org.hamcrest:hamcrest-core:1.3  = 0x4DB1A49729B053CAF015CEE9A6ADFC93EF34893E
 org.hamcrest                    = 0xE3A9F95079E84CE201F7CF60BEDE11EAF1164480
 org.hdrhistogram:HdrHistogram   = 0x7A1D848E7C2AF85EEBA69C99E7BF252CF360097E
