@@ -135,15 +135,6 @@ org.mortbay.jetty:jetty-webapp:7.0.0.pre5 = 0xDB7BEA6FDB11E099783DFFA8AA781E12D7
 org.mortbay.jetty:jetty-xml:7.0.0.pre5 = 0xDB7BEA6FDB11E099783DFFA8AA781E12D7F749B5
 org.mozilla:rhino:1.7R4         = 0x2D9B483740ED802F0A4704ABECF2FAEAF38AEB5D
 org.opensaml                    = 0xDB7BEA6FDB11E099783DFFA8AA781E12D7F749B5
-org.restlet.jee:org.restlet:2.3.4 = 0xDB7BEA6FDB11E099783DFFA8AA781E12D7F749B5
-org.restlet.jee:org.restlet.ext.freemarker:2.3.4 = 0xDB7BEA6FDB11E099783DFFA8AA781E12D7F749B5
-org.restlet.jee:org.restlet.ext.jackson:2.3.4 = 0xDB7BEA6FDB11E099783DFFA8AA781E12D7F749B5
-org.restlet.jee:org.restlet.ext.json:2.3.4 = 0xDB7BEA6FDB11E099783DFFA8AA781E12D7F749B5
-org.restlet.jee:org.restlet.ext.servlet:2.3.4 = 0xDB7BEA6FDB11E099783DFFA8AA781E12D7F749B5
-org.restlet.jee:org.restlet.ext.slf4j:2.3.4 = 0xDB7BEA6FDB11E099783DFFA8AA781E12D7F749B5
-org.restlet.jee:org.restlet.ext.xml:2.3.4 = 0xDB7BEA6FDB11E099783DFFA8AA781E12D7F749B5
-org.restlet.jee:org.restlet.lib.org.json:2.0 = 0xDB7BEA6FDB11E099783DFFA8AA781E12D7F749B5
-org.restlet.jee:*:2.4.3         = noSig
 relaxngDatatype:relaxngDatatype:20020414 = 0xDB7BEA6FDB11E099783DFFA8AA781E12D7F749B5
 xalan:serializer:2.7.1          = 0xDB7BEA6FDB11E099783DFFA8AA781E12D7F749B5
 xml-resolver:xml-resolver:1.2   = 0xDB7BEA6FDB11E099783DFFA8AA781E12D7F749B5
@@ -165,7 +156,6 @@ jakarta.xml.rpc:jakarta.xml.rpc-api:1.1.4-jakarta1 = 0x55D6ADA28F5796F73ED4F8410
 org.apache.click:click-extras:2.3.0-jakarta1 = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
 org.apache.click:click-nodeps:2.3.0-jakarta1 = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
 org.apache.cxf:cxf-rt-transports-http:2.7.18-jakarta1 = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
-org.restlet.jee:org.restlet.ext.servlet:2.4.3-jakarta1 = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
 
 # wrensec-script
 org.eclipse.wst.jsdt:org.eclipse.wst.jsdt.debug.rhino.debugger = 0xDB7BEA6FDB11E099783DFFA8AA781E12D7F749B5
@@ -472,6 +462,7 @@ org.sonatype.aether             = 0xBA926F64CA647B6D853A38672E2010F8A7FF4A41
 org.sonatype.plexus             = 0x9FFED7A118D45A44E4A1E47130E6F80434A72A7F
 org.sonatype.sisu               = 0xBA926F64CA647B6D853A38672E2010F8A7FF4A41, \
                                   0xE78AA45938D10249E08CC1C752E6585E0102B84D
+org.restlet                     = 0xD16C2306FB7E47FF8D66C8E35D1F046A18E8D9BC
 org.testcontainers              = 0x2655176F748FD83725B4805FF2A01147D830C125
 org.testng:testng               = 0xDCBA03381EF6C89096ACD985AC5EC74981F9CDA6, \
                                   0xC4F54D8622C95CC3F098721A0F13D5631D6AF36D
