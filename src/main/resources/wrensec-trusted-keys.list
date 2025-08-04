@@ -146,16 +146,16 @@ com.amazonaws:aws-java-sdk-sqs:1.10.72 = !0x505C6AA8F684D2EFD8B7832E03BD3C33F16A
 org.eclipse.jetty:*:8.1.15.v20140411 = !0x5DE533CB43DAF8BC3E372283E7AE839CD7C58886
 
 # wrenam - bundles needed for jakarta.servlet migration
-commons-fileupload:commons-fileupload:1.5-jakarta1 = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
-com.iplanet.jato:jato:2005-05-04-jakarta1 = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
-com.sun.jersey:jersey-bundle:1.19.1-jakarta1 = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
-com.sun.xml.rpc:jaxrpc-impl:1.1.6-jakarta1 = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
-com.sun.xml.rpc:jaxrpc-spi:1.1.6-jakarta1 = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
-com.sun.web.ui:cc:2008-08-08-jakarta1 = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
-jakarta.xml.rpc:jakarta.xml.rpc-api:1.1.4-jakarta1 = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
-org.apache.click:click-extras:2.3.0-jakarta1 = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
-org.apache.click:click-nodeps:2.3.0-jakarta1 = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
-org.apache.cxf:cxf-rt-transports-http:2.7.18-jakarta1 = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
+commons-fileupload:commons-fileupload:~1\.5-jakarta\d+ = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
+com.iplanet.jato:jato:~2005-05-04-jakarta\d+ = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
+com.sun.jersey:jersey-bundle:~1\.19\.1-jakarta\d+ = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
+com.sun.xml.rpc:jaxrpc-impl:~1\.1\.6-jakarta\d+ = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
+com.sun.xml.rpc:jaxrpc-spi:~1\.1\.6-jakarta\d+ = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
+com.sun.web.ui:cc:~2008-08-08-jakarta\d+ = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
+jakarta.xml.rpc:jakarta.xml.rpc-api:~1\.1\.4-jakarta\d+ = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
+org.apache.click:click-extras:~2\.3\.0-jakarta\d+ = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
+org.apache.click:click-nodeps:~2\.3\.0-jakarta\d+ = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
+org.apache.cxf:cxf-rt-transports-http:~2\.7\.18-jakarta\d+ = 0x55D6ADA28F5796F73ED4F8410E17DF45C081F89B
 
 # wrensec-script
 org.eclipse.wst.jsdt:org.eclipse.wst.jsdt.debug.rhino.debugger = 0xDB7BEA6FDB11E099783DFFA8AA781E12D7F749B5
