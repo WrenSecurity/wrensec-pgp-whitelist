@@ -163,11 +163,9 @@ org.apache.cxf:cxf-rt-transports-http:~2\.7\.18-jakarta\d+ = 0x55D6ADA28F5796F73
 org.eclipse.wst.jsdt:org.eclipse.wst.jsdt.debug.rhino.debugger = 0xDB7BEA6FDB11E099783DFFA8AA781E12D7F749B5
 org.eclipse.wst.jsdt:org.eclipse.wst.jsdt.debug.transport = 0xDB7BEA6FDB11E099783DFFA8AA781E12D7F749B5
 
-
 # wrenidm - testcontainers / duct-tape
 org.jetbrains:annotations:17.0.0 = 0x8756C4F765C9AC3CB6B85D62379CE192D401AB61
 org.rnorth.duct-tape:duct-tape:1.0.8 = 0x8756C4F765C9AC3CB6B85D62379CE192D401AB61
-
 
 #
 # Other Officially Signed Artifacts
@@ -180,6 +178,7 @@ args4j:args4j:2.33              = 0x150FDE3F7787E7D11EF4E12A9B7D32F2D50582E6
 ch.ethz.ganymed:ganymed-ssh2    = noSig
 ch.qos.logback                  = 0x475F3B8E59E6E63AA78067482C7B12F2A511E325, \
                                   0x60200AC4AE761F1614D6C46766D68DAA073BE985
+com.barchart.udt                = 0x6A6A8A4B74EB39F5115690D680B2E0AA2E117339
 com.beust:jcommander            = 0xC70B844F002F21F6D2B9C87522E44AC0622B91C3, \
                                   0xF60DB6893AB3825459528EADCC54B93C018511A4
 com.fasterxml.*                 = 0x8A10792983023D5D14C93B488D7F1BEC1E2ECAE7
@@ -244,7 +243,8 @@ com.zaxxer:HikariCP             = 0xF3A90E6B10E809F851AB4FC54CC08E7F47C3EC76
 commons-beanutils               = 0xB6E73D84EA4FCC47166087253FAAD2CD5ECBB314
 commons-chain                   = noSig
 commons-cli                     = 0x636DE9055C4C75C7BD9830771241BC872C5E4EC0, \
-                                  0xB6E73D84EA4FCC47166087253FAAD2CD5ECBB314
+                                  0xB6E73D84EA4FCC47166087253FAAD2CD5ECBB314, \
+                                  0xCD5464315F0B98C77E6E8ECD9DAADC1C9FCC82D0
 commons-codec                   = 0x2DB4F1EF0FA761ECC4EA935C86FDC7E2A11262CB, \
                                   0xBC87A3FD0A54480F0BADBEBD21939FF0CA2A6567
 commons-collections             = 0x0CC641C3A62453AB390066C4A41F13C999945293, \
@@ -267,6 +267,7 @@ dom4j                           = noSig
 info.picocli:picocli            = 0xAA417737BD805456DB3CBDDE6601E5C08DCCBB96
 io.dropwizard.metrics           = 0x4C49E201CA4058467A42D9477863C5234D13335B
 io.github.resilience4j          = 0x94FAC9D5B165E80F1F2D9A103FFA7DB1EC0FF1A2
+io.netty                        = 0x7E22D50A7EBD9D2CD269B2D4056ACA74D46000BF
 io.reactivex.rxjava3:rxjava     = 0xE9CC3CD1AE59E851E4DB3FA350FFD7487D34B5B9
 io.rest-assured                 = 0x07E20F0103D9DFC697C490D0368557390486F2C5
 io.swagger                      = 0x1F6774B9D58C5EA6BF84D534704514F6556102E5, \
@@ -413,6 +414,7 @@ org.easymock:easymock:3.2       = 0xE85AED155021AF8A6C6B7A4A7C7D8456294423BA
 org.eclipse.aether              = 0xBA926F64CA647B6D853A38672E2010F8A7FF4A41, \
                                   0xFB11D4BB7B244678337AAD8BC7BF26D0BB617866
 org.eclipse.jetty               = 0x5989BAF76217B843D66BE55B2D0E1FB8FE4B68B4
+org.eclipse.jetty.*             = 0x5989BAF76217B843D66BE55B2D0E1FB8FE4B68B4
 org.eclipse.jetty.toolchain     = 0x1A2D608BF6D37AEF12D53A4F37B0A85F5CE89B0C
 org.eclipse.sisu                = 0xCF17E92C9FFA55316B5DB83901D734EE5EE9C3F8
 org.flowable                    = 0x7A71B62ACF878FDC25E064126B8272F2C0C3AC37
@@ -448,6 +450,7 @@ org.junit.jupiter               = 0xFF6E2C001948C5F2F38B0CC385911F425EC61B51
 org.jvnet.mimepull              = 0xB506C29E4B7EF88CE0F0E6D3A7C6AFD280CA7CF0
 org.junit.platform              = 0xFF6E2C001948C5F2F38B0CC385911F425EC61B51
 org.jvnet.staxex                = 0x06A4D15D9FA796BA5DECF592CE8B1D1D2530EDC5
+org.littleshoot:littleproxy     = 0xCFC3CF98C9C5B16EBAFF19AE29CD2809561A3416
 org.mcraig:jcite                = 0x87978970163FA58E43B6F6E10476CAEB18F7EDD2
 org.mockito:mockito-core:3.7.7  = 0xCC4483CD6A3EB2939B948667A1B4460D8BA7B9AF
 org.mockito:mockito-core        = 0x147B691A19097624902F4EA9689CBE64F4BC997F
@@ -462,7 +465,8 @@ org.objenesis:objenesis         = 0xE85AED155021AF8A6C6B7A4A7C7D8456294423BA
 org.openjdk.jmh:jmh-core        = 0x019082BC00E0324E2AEF4CF00D3B328562A119A7, \
                                   0xA413F67D71BEEC23ADD0CE0ACB43338E060CF9FA
 org.opentest4j:opentest4j       = 0xFF6E2C001948C5F2F38B0CC385911F425EC61B51
-org.ops4j.base:ops4j-base-lang  = 0xEA23DB1360D9029481E7F2EFECDFEA3CB4493B94
+org.ops4j.base:ops4j-base-lang  = 0xEA23DB1360D9029481E7F2EFECDFEA3CB4493B94, \
+                                  0x1AA8CF92D409A73393D0B736BFF2EE42C8282E76
 org.ops4j.pax.swissbox:pax-swissbox-* = 0x1AA8CF92D409A73393D0B736BFF2EE42C8282E76
 org.osgi:org.osgi.*             = 0xEAFC1F3B2FCED6AFD046C7D5734AEF3D43509290
 org.osgi:osgi.cmpn:7.0.0        = 0xEAFC1F3B2FCED6AFD046C7D5734AEF3D43509290
@@ -470,7 +474,8 @@ org.ow2.asm                     = 0xA5BD02B93E7A40482EB1D66A5F69AD087600B22C
 org.powermock                   = 0x53291EC0087EB140DFCA62A69A9E48C5A0DF30F7
 org.postgresql:postgresql       = 0x3750777B9C4B7D233B9D0C40307A96FBA0292109
 org.reactivestreams:reactive-streams:1.0.0 = 0xA5B2DDE7843E7CA3E8CAABD02383163BC40844FD
-org.reactivestreams             = 0xE83AABBB95CA37431E20422043203BE58F49479D
+org.reactivestreams             = 0xE83AABBB95CA37431E20422043203BE58F49479D, \
+                                  0x50A628FFAF58480736B1079FD1031D14464180E0
 org.simplify4u.plugins          = 0x57EB3F12030A57BAA31CAAD5BE3E2A5CB80794EE
 org.slf4j                       = 0x475F3B8E59E6E63AA78067482C7B12F2A511E325, \
                                   0x60200AC4AE761F1614D6C46766D68DAA073BE985
